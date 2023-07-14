@@ -1,5 +1,6 @@
 const cardContainer = document.querySelector(".card-container");
 
+//array lista membri team
 let ListaTeam= [
     {
         name: "Wayne Barnett",
@@ -33,7 +34,7 @@ let ListaTeam= [
     }
 ]
 
-
+//generazione e stampa elementi in html
 for (let i = 0; i<ListaTeam.length; i++){
     const membro = ListaTeam[i];
     
